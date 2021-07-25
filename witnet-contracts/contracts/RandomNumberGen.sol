@@ -13,7 +13,7 @@ contract RandomNumberGen is UsingWitnet {
   using Witnet for Witnet.Result;
 
   // random number
-  uint64 public randomNumber;
+  uint256 public randomNumber;
 
   // Stores the ID of the last Witnet request
   uint256 public lastRequestId;

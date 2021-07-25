@@ -34,6 +34,9 @@ contract Pool is PoolTicket {
   Counters.Counter private drawNumberTracker;
 
   address private daoAddress;
+  IRandomNumberGen _random;
+
+  uint256 randomNumber;
 
   mapping (uint256 => bool) public _winningTokens;
 
@@ -43,7 +46,7 @@ contract Pool is PoolTicket {
               uint64 _participantCount, 
               uint8[] memory _winningPercentages,
               uint32 _ticketPrice,
-              ) 
+              IRandomNumberGen _random) 
       PoolTicket(_ticketPrice)
       {
     // Pass them through the functions to have them validated
@@ -86,11 +89,16 @@ contract Pool is PoolTicket {
       _enteredCurrentDraw
     );
   }
+
+  function startRandomNumberRequest() public {
+    _random.requestUpdate();
+  }
     
   /**
    * Callback function used by VRF Coordinator
    */
   function processDraw() private {
+    _random.completeUpdate();
     // Get the correct contractPoolTotal by subtracting
     // the locked amount
     uint256 accountBalance = address(this).balance;
@@ -113,7 +121,7 @@ contract Pool is PoolTicket {
       uint256 index = _i - 1; // In order to not trigger underflow validations we do not do arrLength - 1
       uint256 winningPercentage = winningPercentages[index];
 
-      uint256 rand = uint256(generateRand());
+      uint256 rand = randomNumber;
 
       uint256 winningAmount = calculatePercentage(contractPoolTotal, winningPercentage);
       remainingContractPool -= winningAmount;
@@ -214,17 +222,6 @@ contract Pool is PoolTicket {
       processDraw();
     }
   }
-
-  function generateRand() private view returns (bytes32 result) {
-		bytes32 input;
-		assembly {
-			let memPtr := mload(0x40)
-					if iszero(staticcall(not(0), 0xff, input, 32, memPtr, 32)) {
-						invalid()
-					}
-					result := mload(memPtr)
-			}
-  	}
 
   //====================================+
   // Administration Setters
