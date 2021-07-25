@@ -2,9 +2,9 @@
 // each contracts' constructor arguments (you can freely edit those and the compiler will respect them).
 const Witnet = artifacts.require("Witnet")
 const WitnetRequestBoardProxy = artifacts.require("WitnetRequestBoardProxy")
-const PriceFeed = artifacts.require("PriceFeed")
+const RandomNumberGen = artifacts.require("RandomNumberGen")
 
 module.exports = async function (deployer) {
-  await deployer.link(Witnet, [PriceFeed])
-  await deployer.deploy(PriceFeed, WitnetRequestBoardProxy.address)
+  await deployer.link(Witnet, [RandomNumberGen])
+  await deployer.deploy(RandomNumberGen, WitnetRequestBoardProxy.address)
 }

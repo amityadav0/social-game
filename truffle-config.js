@@ -57,7 +57,7 @@ module.exports = {
   // The `solc` compiler is set to optimize output bytecode with 200 runs, which is the standard these days
   compilers: {
     solc: {
-      version: "0.6.12",
+      version: "0.8.0",
       settings: {optimizer: { enabled: true, runs: 200 } }},
   },
 

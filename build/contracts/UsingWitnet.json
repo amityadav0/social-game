@@ -1,7 +1,7 @@
 {
   "contractName": "UsingWitnet",
   "abi": [],
-  "metadata": "{\"compiler\":{\"version\":\"0.8.4+commit.c7e474f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{\"constructor\":{\"params\":{\"_wrb\":\"WitnetRequestBoard address.\"}}},\"title\":\"The UsingWitnet contract\",\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{\"constructor\":{\"notice\":\"Include an address to specify the WitnetRequestBoard.\"}},\"notice\":\"Contract writers can inherit this contract in order to create Witnet data requests.\",\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/UsingWitnet.sol\":\"UsingWitnet\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/BufferLib.sol\":{\"keccak256\":\"0x6a211e8f967da44050b6f1e7312d26d0f17dc4aa8d874fad9834227e9d8edb19\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://79ee1f5de2d0aecb2ee3169f81c5ed575f24d60620351cf6cb491609ae03488e\",\"dweb:/ipfs/QmXswbkCfvUd6uLfu22vK2qtKi45frD15QtuoA7eQAUHmE\"]},\"project:/contracts/CBOR.sol\":{\"keccak256\":\"0xe78a37e16548872760c8285a66e67f14472c860fb0e735c6ce9eff5238295228\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://6d6ff634d657a249eae97dd7c97eb8881441a1709a9401b353ce0c1d15a54f87\",\"dweb:/ipfs/QmP8qigxHGp4njBjBSgVrx4aLcakANm1yaagSxteecEDJP\"]},\"project:/contracts/Request.sol\":{\"keccak256\":\"0xcd335e9baad2df274886a755b20cab01f9fd6b9df710a337641935fd66c9150f\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://2c8bbf279692a0f6501a57098f53e9a67fa652bb29f8da06e00d72b41cd904dd\",\"dweb:/ipfs/QmPo53SZse5LiLgkvCmoskHWVEYrPCn9rrXs3FcagDrNMm\"]},\"project:/contracts/UsingWitnet.sol\":{\"keccak256\":\"0xc9c20e98b78197a5f5b74490e269418d9a1b8e5b972d4b705e6f2c5959585177\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://54f3f49f9c7becd2a1c42004259535389f5727b64a8da17f0b1226f7c8b1900e\",\"dweb:/ipfs/Qmbk6J5TEnCoL7kZFR5pQGRagHboArE3iQGsS6V7nQLYmv\"]},\"project:/contracts/Witnet.sol\":{\"keccak256\":\"0xc570b6bf798e53416bc74d49283dd86c175ed0f87c349767e8d3ece240627d40\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://d4fafce7b024b4adf89df95f11351b9546595d995edbe3da93dea8bac837ec90\",\"dweb:/ipfs/QmZAWvFpMjnKM5J2mDLk36rta31Zaj7xcbT1vgKRdHH8HE\"]},\"project:/contracts/WitnetRequestBoardInterface.sol\":{\"keccak256\":\"0x6e61ebaa1f297f3ef34aa842d872fb227089ae10bead67157db43a890d21fe3f\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://3478aed72195d566fa08d8e8674c57d2a5ba0cad8d139574fffa9a255e3ad829\",\"dweb:/ipfs/QmajyBjkRAcM6bVpUxf2Zqj6jaN1jBeQm94SYC7HNJf7vR\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.0+commit.c7dfd78e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{\"constructor\":{\"params\":{\"_wrb\":\"WitnetRequestBoard address.\"}}},\"title\":\"The UsingWitnet contract\",\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{\"constructor\":{\"notice\":\"Include an address to specify the WitnetRequestBoard.\"}},\"notice\":\"Contract writers can inherit this contract in order to create Witnet data requests.\",\"version\":1}},\"settings\":{\"compilationTarget\":{\"witnet-ethereum-bridge/contracts/UsingWitnet.sol\":\"UsingWitnet\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"witnet-ethereum-bridge/contracts/BufferLib.sol\":{\"keccak256\":\"0x6a211e8f967da44050b6f1e7312d26d0f17dc4aa8d874fad9834227e9d8edb19\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://79ee1f5de2d0aecb2ee3169f81c5ed575f24d60620351cf6cb491609ae03488e\",\"dweb:/ipfs/QmXswbkCfvUd6uLfu22vK2qtKi45frD15QtuoA7eQAUHmE\"]},\"witnet-ethereum-bridge/contracts/CBOR.sol\":{\"keccak256\":\"0xe78a37e16548872760c8285a66e67f14472c860fb0e735c6ce9eff5238295228\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://6d6ff634d657a249eae97dd7c97eb8881441a1709a9401b353ce0c1d15a54f87\",\"dweb:/ipfs/QmP8qigxHGp4njBjBSgVrx4aLcakANm1yaagSxteecEDJP\"]},\"witnet-ethereum-bridge/contracts/Request.sol\":{\"keccak256\":\"0xcd335e9baad2df274886a755b20cab01f9fd6b9df710a337641935fd66c9150f\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://2c8bbf279692a0f6501a57098f53e9a67fa652bb29f8da06e00d72b41cd904dd\",\"dweb:/ipfs/QmPo53SZse5LiLgkvCmoskHWVEYrPCn9rrXs3FcagDrNMm\"]},\"witnet-ethereum-bridge/contracts/UsingWitnet.sol\":{\"keccak256\":\"0xc9c20e98b78197a5f5b74490e269418d9a1b8e5b972d4b705e6f2c5959585177\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://54f3f49f9c7becd2a1c42004259535389f5727b64a8da17f0b1226f7c8b1900e\",\"dweb:/ipfs/Qmbk6J5TEnCoL7kZFR5pQGRagHboArE3iQGsS6V7nQLYmv\"]},\"witnet-ethereum-bridge/contracts/Witnet.sol\":{\"keccak256\":\"0xc570b6bf798e53416bc74d49283dd86c175ed0f87c349767e8d3ece240627d40\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://d4fafce7b024b4adf89df95f11351b9546595d995edbe3da93dea8bac837ec90\",\"dweb:/ipfs/QmZAWvFpMjnKM5J2mDLk36rta31Zaj7xcbT1vgKRdHH8HE\"]},\"witnet-ethereum-bridge/contracts/WitnetRequestBoardInterface.sol\":{\"keccak256\":\"0x6e61ebaa1f297f3ef34aa842d872fb227089ae10bead67157db43a890d21fe3f\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://3478aed72195d566fa08d8e8674c57d2a5ba0cad8d139574fffa9a255e3ad829\",\"dweb:/ipfs/QmajyBjkRAcM6bVpUxf2Zqj6jaN1jBeQm94SYC7HNJf7vR\"]}},\"version\":1}",
   "bytecode": "0x",
   "deployedBytecode": "0x",
   "immutableReferences": {},
@@ -10,35 +10,35 @@
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "// SPDX-License-Identifier: MIT\n\npragma solidity >=0.7.0 <0.9.0;\npragma experimental ABIEncoderV2;\n\nimport \"./Request.sol\";\nimport \"./Witnet.sol\";\nimport \"./WitnetRequestBoardInterface.sol\";\n\n\n/**\n * @title The UsingWitnet contract\n * @notice Contract writers can inherit this contract in order to create Witnet data requests.\n */\nabstract contract UsingWitnet {\n  using Witnet for Witnet.Result;\n\n  WitnetRequestBoardInterface internal immutable wrb;\n\n /**\n  * @notice Include an address to specify the WitnetRequestBoard.\n  * @param _wrb WitnetRequestBoard address.\n  */\n  constructor(address _wrb) {\n    wrb = WitnetRequestBoardInterface(_wrb);\n  }\n\n  // Provides a convenient way for client contracts extending this to block the execution of the main logic of the\n  // contract until a particular request has been successfully resolved by Witnet\n  modifier witnetRequestResolved(uint256 _id) {\n    require(witnetCheckRequestResolved(_id), \"Witnet request is not yet resolved by the Witnet network\");\n    _;\n  }\n\n /**\n  * @notice Send a new request to the Witnet network with transaction value as result report reward.\n  * @dev Call to `post_dr` function in the WitnetRequestBoard contract.\n  * @param _request An instance of the `Request` contract.\n  * @return Sequencial identifier for the request included in the WitnetRequestBoard.\n  */\n  function witnetPostRequest(Request _request) internal returns (uint256) {\n    return wrb.postDataRequest{value: msg.value}(address(_request));\n  }\n\n /**\n  * @notice Check if a request has been resolved by Witnet.\n  * @dev Contracts depending on Witnet should not start their main business logic (e.g. receiving value from third.\n  * parties) before this method returns `true`.\n  * @param _id The unique identifier of a request that has been previously sent to the WitnetRequestBoard.\n  * @return A boolean telling if the request has been already resolved or not.\n  */\n  function witnetCheckRequestResolved(uint256 _id) internal view returns (bool) {\n    // If the result of the data request in Witnet is not the default, then it means that it has been reported as resolved.\n    return wrb.readDrTxHash(_id) != 0;\n  }\n\n /**\n  * @notice Upgrade the reward for a Data Request previously included.\n  * @dev Call to `upgrade_dr` function in the WitnetRequestBoard contract.\n  * @param _id The unique identifier of a request that has been previously sent to the WitnetRequestBoard.\n  */\n  function witnetUpgradeRequest(uint256 _id) internal {\n    wrb.upgradeDataRequest{value: msg.value}(_id);\n  }\n\n /**\n  * @notice Read the result of a resolved request.\n  * @dev Call to `read_result` function in the WitnetRequestBoard contract.\n  * @param _id The unique identifier of a request that was posted to Witnet.\n  * @return The result of the request as an instance of `Result`.\n  */\n  function witnetReadResult(uint256 _id) internal view returns (Witnet.Result memory) {\n    return Witnet.resultFromCborBytes(wrb.readResult(_id));\n  }\n\n /**\n  * @notice Estimate the reward amount.\n  * @dev Call to `estimate_gas_cost` function in the WitnetRequestBoard contract.\n  * @param _gasPrice The gas price for which we want to retrieve the estimation.\n  * @return The reward to be included for the given gas price.\n  */\n  function witnetEstimateGasCost(uint256 _gasPrice) internal view returns (uint256) {\n    return wrb.estimateGasCost(_gasPrice);\n  }\n}\n",
-  "sourcePath": "/home/ay/harmony/lottery/node_modules/witnet-ethereum-bridge/contracts/UsingWitnet.sol",
+  "sourcePath": "witnet-ethereum-bridge/contracts/UsingWitnet.sol",
   "ast": {
-    "absolutePath": "project:/contracts/UsingWitnet.sol",
+    "absolutePath": "witnet-ethereum-bridge/contracts/UsingWitnet.sol",
     "exportedSymbols": {
       "BufferLib": [
-        640
+        854
       ],
       "CBOR": [
-        1713
+        1927
       ],
       "Request": [
-        1730
+        1944
       ],
       "UsingWitnet": [
-        1856
+        2070
       ],
       "Witnet": [
-        3218
+        3432
       ],
       "WitnetRequestBoardInterface": [
-        3782
+        3490
       ]
     },
-    "id": 1857,
+    "id": 2071,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 1732,
+        "id": 1946,
         "literals": [
           "solidity",
           ">=",
@@ -49,50 +49,47 @@
           ".0"
         ],
         "nodeType": "PragmaDirective",
-        "src": "33:31:3"
+        "src": "33:31:6"
       },
       {
-        "id": 1733,
+        "id": 1947,
         "literals": [
           "experimental",
           "ABIEncoderV2"
         ],
         "nodeType": "PragmaDirective",
-        "src": "65:33:3"
+        "src": "65:33:6"
       },
       {
-        "absolutePath": "project:/contracts/Request.sol",
+        "absolutePath": "witnet-ethereum-bridge/contracts/Request.sol",
         "file": "./Request.sol",
-        "id": 1734,
-        "nameLocation": "-1:-1:-1",
+        "id": 1948,
         "nodeType": "ImportDirective",
-        "scope": 1857,
-        "sourceUnit": 1731,
-        "src": "100:23:3",
+        "scope": 2071,
+        "sourceUnit": 1945,
+        "src": "100:23:6",
         "symbolAliases": [],
         "unitAlias": ""
       },
       {
-        "absolutePath": "project:/contracts/Witnet.sol",
+        "absolutePath": "witnet-ethereum-bridge/contracts/Witnet.sol",
         "file": "./Witnet.sol",
-        "id": 1735,
-        "nameLocation": "-1:-1:-1",
+        "id": 1949,
         "nodeType": "ImportDirective",
-        "scope": 1857,
-        "sourceUnit": 3219,
-        "src": "124:22:3",
+        "scope": 2071,
+        "sourceUnit": 3433,
+        "src": "124:22:6",
         "symbolAliases": [],
         "unitAlias": ""
       },
       {
-        "absolutePath": "project:/contracts/WitnetRequestBoardInterface.sol",
+        "absolutePath": "witnet-ethereum-bridge/contracts/WitnetRequestBoardInterface.sol",
         "file": "./WitnetRequestBoardInterface.sol",
-        "id": 1736,
-        "nameLocation": "-1:-1:-1",
+        "id": 1950,
         "nodeType": "ImportDirective",
-        "scope": 1857,
-        "sourceUnit": 3783,
-        "src": "147:43:3",
+        "scope": 2071,
+        "sourceUnit": 3491,
+        "src": "147:43:6",
         "symbolAliases": [],
         "unitAlias": ""
       },
@@ -102,78 +99,76 @@
         "contractDependencies": [],
         "contractKind": "contract",
         "documentation": {
-          "id": 1737,
+          "id": 1951,
           "nodeType": "StructuredDocumentation",
-          "src": "193:137:3",
+          "src": "193:137:6",
           "text": " @title The UsingWitnet contract\n @notice Contract writers can inherit this contract in order to create Witnet data requests."
         },
         "fullyImplemented": true,
-        "id": 1856,
+        "id": 2070,
         "linearizedBaseContracts": [
-          1856
+          2070
         ],
         "name": "UsingWitnet",
-        "nameLocation": "349:11:3",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
-            "id": 1741,
+            "id": 1955,
             "libraryName": {
-              "id": 1738,
+              "id": 1952,
               "name": "Witnet",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 3218,
-              "src": "371:6:3"
+              "referencedDeclaration": 3432,
+              "src": "371:6:6"
             },
             "nodeType": "UsingForDirective",
-            "src": "365:31:3",
+            "src": "365:31:6",
             "typeName": {
-              "id": 1740,
+              "id": 1954,
               "nodeType": "UserDefinedTypeName",
               "pathNode": {
-                "id": 1739,
+                "id": 1953,
                 "name": "Witnet.Result",
                 "nodeType": "IdentifierPath",
-                "referencedDeclaration": 1871,
-                "src": "382:13:3"
+                "referencedDeclaration": 2085,
+                "src": "382:13:6"
               },
-              "referencedDeclaration": 1871,
-              "src": "382:13:3",
+              "referencedDeclaration": 2085,
+              "src": "382:13:6",
               "typeDescriptions": {
-                "typeIdentifier": "t_struct$_Result_$1871_storage_ptr",
+                "typeIdentifier": "t_struct$_Result_$2085_storage_ptr",
                 "typeString": "struct Witnet.Result"
               }
             }
           },
           {
             "constant": false,
-            "id": 1744,
+            "id": 1958,
             "mutability": "immutable",
             "name": "wrb",
-            "nameLocation": "447:3:3",
             "nodeType": "VariableDeclaration",
-            "scope": 1856,
-            "src": "400:50:3",
+            "scope": 2070,
+            "src": "400:50:6",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_WitnetRequestBoardInterface_$3782",
+              "typeIdentifier": "t_contract$_WitnetRequestBoardInterface_$3490",
               "typeString": "contract WitnetRequestBoardInterface"
             },
             "typeName": {
-              "id": 1743,
+              "id": 1957,
               "nodeType": "UserDefinedTypeName",
               "pathNode": {
-                "id": 1742,
+                "id": 1956,
                 "name": "WitnetRequestBoardInterface",
                 "nodeType": "IdentifierPath",
-                "referencedDeclaration": 3782,
-                "src": "400:27:3"
+                "referencedDeclaration": 3490,
+                "src": "400:27:6"
               },
-              "referencedDeclaration": 3782,
-              "src": "400:27:3",
+              "referencedDeclaration": 3490,
+              "src": "400:27:6",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_WitnetRequestBoardInterface_$3782",
+                "typeIdentifier": "t_contract$_WitnetRequestBoardInterface_$3490",
                 "typeString": "contract WitnetRequestBoardInterface"
               }
             },
@@ -181,26 +176,26 @@
           },
           {
             "body": {
-              "id": 1756,
+              "id": 1970,
               "nodeType": "Block",
-              "src": "601:50:3",
+              "src": "601:50:6",
               "statements": [
                 {
                   "expression": {
-                    "id": 1754,
+                    "id": 1968,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
-                      "id": 1750,
+                      "id": 1964,
                       "name": "wrb",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1744,
-                      "src": "607:3:3",
+                      "referencedDeclaration": 1958,
+                      "src": "607:3:6",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_WitnetRequestBoardInterface_$3782",
+                        "typeIdentifier": "t_contract$_WitnetRequestBoardInterface_$3490",
                         "typeString": "contract WitnetRequestBoardInterface"
                       }
                     },
@@ -209,12 +204,12 @@
                     "rightHandSide": {
                       "arguments": [
                         {
-                          "id": 1752,
+                          "id": 1966,
                           "name": "_wrb",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1747,
-                          "src": "641:4:3",
+                          "referencedDeclaration": 1961,
+                          "src": "641:4:6",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
                             "typeString": "address"
@@ -228,18 +223,18 @@
                             "typeString": "address"
                           }
                         ],
-                        "id": 1751,
+                        "id": 1965,
                         "name": "WitnetRequestBoardInterface",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 3782,
-                        "src": "613:27:3",
+                        "referencedDeclaration": 3490,
+                        "src": "613:27:6",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_contract$_WitnetRequestBoardInterface_$3782_$",
+                          "typeIdentifier": "t_type$_t_contract$_WitnetRequestBoardInterface_$3490_$",
                           "typeString": "type(contract WitnetRequestBoardInterface)"
                         }
                       },
-                      "id": 1753,
+                      "id": 1967,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -247,51 +242,49 @@
                       "lValueRequested": false,
                       "names": [],
                       "nodeType": "FunctionCall",
-                      "src": "613:33:3",
+                      "src": "613:33:6",
                       "tryCall": false,
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_WitnetRequestBoardInterface_$3782",
+                        "typeIdentifier": "t_contract$_WitnetRequestBoardInterface_$3490",
                         "typeString": "contract WitnetRequestBoardInterface"
                       }
                     },
-                    "src": "607:39:3",
+                    "src": "607:39:6",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_WitnetRequestBoardInterface_$3782",
+                      "typeIdentifier": "t_contract$_WitnetRequestBoardInterface_$3490",
                       "typeString": "contract WitnetRequestBoardInterface"
                     }
                   },
-                  "id": 1755,
+                  "id": 1969,
                   "nodeType": "ExpressionStatement",
-                  "src": "607:39:3"
+                  "src": "607:39:6"
                 }
               ]
             },
             "documentation": {
-              "id": 1745,
+              "id": 1959,
               "nodeType": "StructuredDocumentation",
-              "src": "454:118:3",
+              "src": "454:118:6",
               "text": " @notice Include an address to specify the WitnetRequestBoard.\n @param _wrb WitnetRequestBoard address."
             },
-            "id": 1757,
+            "id": 1971,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [],
             "name": "",
-            "nameLocation": "-1:-1:-1",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1748,
+              "id": 1962,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1747,
+                  "id": 1961,
                   "mutability": "mutable",
                   "name": "_wrb",
-                  "nameLocation": "595:4:3",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1757,
-                  "src": "587:12:3",
+                  "scope": 1971,
+                  "src": "587:12:6",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -299,10 +292,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1746,
+                    "id": 1960,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "587:7:3",
+                    "src": "587:7:6",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -312,25 +305,25 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "586:14:3"
+              "src": "586:14:6"
             },
             "returnParameters": {
-              "id": 1749,
+              "id": 1963,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "601:0:3"
+              "src": "601:0:6"
             },
-            "scope": 1856,
-            "src": "575:76:3",
+            "scope": 2070,
+            "src": "575:76:6",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "internal"
           },
           {
             "body": {
-              "id": 1769,
+              "id": 1983,
               "nodeType": "Block",
-              "src": "896:118:3",
+              "src": "896:118:6",
               "statements": [
                 {
                   "expression": {
@@ -338,12 +331,12 @@
                       {
                         "arguments": [
                           {
-                            "id": 1763,
+                            "id": 1977,
                             "name": "_id",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1759,
-                            "src": "937:3:3",
+                            "referencedDeclaration": 1973,
+                            "src": "937:3:6",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -357,18 +350,18 @@
                               "typeString": "uint256"
                             }
                           ],
-                          "id": 1762,
+                          "id": 1976,
                           "name": "witnetCheckRequestResolved",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1807,
-                          "src": "910:26:3",
+                          "referencedDeclaration": 2021,
+                          "src": "910:26:6",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_view$_t_uint256_$returns$_t_bool_$",
                             "typeString": "function (uint256) view returns (bool)"
                           }
                         },
-                        "id": 1764,
+                        "id": 1978,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -376,7 +369,7 @@
                         "lValueRequested": false,
                         "names": [],
                         "nodeType": "FunctionCall",
-                        "src": "910:31:3",
+                        "src": "910:31:6",
                         "tryCall": false,
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
@@ -385,14 +378,14 @@
                       },
                       {
                         "hexValue": "5769746e65742072657175657374206973206e6f7420796574207265736f6c76656420627920746865205769746e6574206e6574776f726b",
-                        "id": 1765,
+                        "id": 1979,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
                         "kind": "string",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "943:58:3",
+                        "src": "943:58:6",
                         "typeDescriptions": {
                           "typeIdentifier": "t_stringliteral_3d8134c7e02076cde7b92643f7e4c1b71b60a9cb92aa29444d300076b8f763b2",
                           "typeString": "literal_string \"Witnet request is not yet resolved by the Witnet network\""
@@ -411,7 +404,7 @@
                           "typeString": "literal_string \"Witnet request is not yet resolved by the Witnet network\""
                         }
                       ],
-                      "id": 1761,
+                      "id": 1975,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
@@ -419,13 +412,13 @@
                         4294967278
                       ],
                       "referencedDeclaration": 4294967278,
-                      "src": "902:7:3",
+                      "src": "902:7:6",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (bool,string memory) pure"
                       }
                     },
-                    "id": 1766,
+                    "id": 1980,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -433,41 +426,39 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "902:100:3",
+                    "src": "902:100:6",
                     "tryCall": false,
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 1767,
+                  "id": 1981,
                   "nodeType": "ExpressionStatement",
-                  "src": "902:100:3"
+                  "src": "902:100:6"
                 },
                 {
-                  "id": 1768,
+                  "id": 1982,
                   "nodeType": "PlaceholderStatement",
-                  "src": "1008:1:3"
+                  "src": "1008:1:6"
                 }
               ]
             },
-            "id": 1770,
+            "id": 1984,
             "name": "witnetRequestResolved",
-            "nameLocation": "861:21:3",
             "nodeType": "ModifierDefinition",
             "parameters": {
-              "id": 1760,
+              "id": 1974,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1759,
+                  "id": 1973,
                   "mutability": "mutable",
                   "name": "_id",
-                  "nameLocation": "891:3:3",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1770,
-                  "src": "883:11:3",
+                  "scope": 1984,
+                  "src": "883:11:6",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -475,10 +466,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1758,
+                    "id": 1972,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "883:7:3",
+                    "src": "883:7:6",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -487,17 +478,17 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "882:13:3"
+              "src": "882:13:6"
             },
-            "src": "852:162:3",
+            "src": "852:162:6",
             "virtual": false,
             "visibility": "internal"
           },
           {
             "body": {
-              "id": 1790,
+              "id": 2004,
               "nodeType": "Block",
-              "src": "1418:74:3",
+              "src": "1418:74:6",
               "statements": [
                 {
                   "expression": {
@@ -505,14 +496,14 @@
                       {
                         "arguments": [
                           {
-                            "id": 1786,
+                            "id": 2000,
                             "name": "_request",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1774,
-                            "src": "1477:8:3",
+                            "referencedDeclaration": 1988,
+                            "src": "1477:8:6",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_Request_$1730",
+                              "typeIdentifier": "t_contract$_Request_$1944",
                               "typeString": "contract Request"
                             }
                           }
@@ -520,30 +511,30 @@
                         "expression": {
                           "argumentTypes": [
                             {
-                              "typeIdentifier": "t_contract$_Request_$1730",
+                              "typeIdentifier": "t_contract$_Request_$1944",
                               "typeString": "contract Request"
                             }
                           ],
-                          "id": 1785,
+                          "id": 1999,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
                           "lValueRequested": false,
                           "nodeType": "ElementaryTypeNameExpression",
-                          "src": "1469:7:3",
+                          "src": "1469:7:6",
                           "typeDescriptions": {
                             "typeIdentifier": "t_type$_t_address_$",
                             "typeString": "type(address)"
                           },
                           "typeName": {
-                            "id": 1784,
+                            "id": 1998,
                             "name": "address",
                             "nodeType": "ElementaryTypeName",
-                            "src": "1469:7:3",
+                            "src": "1469:7:6",
                             "typeDescriptions": {}
                           }
                         },
-                        "id": 1787,
+                        "id": 2001,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -551,7 +542,7 @@
                         "lValueRequested": false,
                         "names": [],
                         "nodeType": "FunctionCall",
-                        "src": "1469:17:3",
+                        "src": "1469:17:6",
                         "tryCall": false,
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
@@ -574,32 +565,32 @@
                           }
                         ],
                         "expression": {
-                          "id": 1779,
+                          "id": 1993,
                           "name": "wrb",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1744,
-                          "src": "1431:3:3",
+                          "referencedDeclaration": 1958,
+                          "src": "1431:3:6",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_WitnetRequestBoardInterface_$3782",
+                            "typeIdentifier": "t_contract$_WitnetRequestBoardInterface_$3490",
                             "typeString": "contract WitnetRequestBoardInterface"
                           }
                         },
-                        "id": 1780,
+                        "id": 1994,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "postDataRequest",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 3743,
-                        "src": "1431:19:3",
+                        "referencedDeclaration": 3451,
+                        "src": "1431:19:6",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_external_payable$_t_address_$returns$_t_uint256_$",
                           "typeString": "function (address) payable external returns (uint256)"
                         }
                       },
-                      "id": 1783,
+                      "id": 1997,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -611,38 +602,38 @@
                       "options": [
                         {
                           "expression": {
-                            "id": 1781,
+                            "id": 1995,
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 4294967281,
-                            "src": "1458:3:3",
+                            "src": "1458:3:6",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
                               "typeString": "msg"
                             }
                           },
-                          "id": 1782,
+                          "id": 1996,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
                           "lValueRequested": false,
                           "memberName": "value",
                           "nodeType": "MemberAccess",
-                          "src": "1458:9:3",
+                          "src": "1458:9:6",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
                           }
                         }
                       ],
-                      "src": "1431:37:3",
+                      "src": "1431:37:6",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_payable$_t_address_$returns$_t_uint256_$value",
                         "typeString": "function (address) payable external returns (uint256)"
                       }
                     },
-                    "id": 1788,
+                    "id": 2002,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -650,87 +641,84 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "1431:56:3",
+                    "src": "1431:56:6",
                     "tryCall": false,
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "functionReturnParameters": 1778,
-                  "id": 1789,
+                  "functionReturnParameters": 1992,
+                  "id": 2003,
                   "nodeType": "Return",
-                  "src": "1424:63:3"
+                  "src": "1424:63:6"
                 }
               ]
             },
             "documentation": {
-              "id": 1771,
+              "id": 1985,
               "nodeType": "StructuredDocumentation",
-              "src": "1017:326:3",
+              "src": "1017:326:6",
               "text": " @notice Send a new request to the Witnet network with transaction value as result report reward.\n @dev Call to `post_dr` function in the WitnetRequestBoard contract.\n @param _request An instance of the `Request` contract.\n @return Sequencial identifier for the request included in the WitnetRequestBoard."
             },
-            "id": 1791,
+            "id": 2005,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "witnetPostRequest",
-            "nameLocation": "1355:17:3",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1775,
+              "id": 1989,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1774,
+                  "id": 1988,
                   "mutability": "mutable",
                   "name": "_request",
-                  "nameLocation": "1381:8:3",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1791,
-                  "src": "1373:16:3",
+                  "scope": 2005,
+                  "src": "1373:16:6",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_Request_$1730",
+                    "typeIdentifier": "t_contract$_Request_$1944",
                     "typeString": "contract Request"
                   },
                   "typeName": {
-                    "id": 1773,
+                    "id": 1987,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 1772,
+                      "id": 1986,
                       "name": "Request",
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 1730,
-                      "src": "1373:7:3"
+                      "referencedDeclaration": 1944,
+                      "src": "1373:7:6"
                     },
-                    "referencedDeclaration": 1730,
-                    "src": "1373:7:3",
+                    "referencedDeclaration": 1944,
+                    "src": "1373:7:6",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_Request_$1730",
+                      "typeIdentifier": "t_contract$_Request_$1944",
                       "typeString": "contract Request"
                     }
                   },
                   "visibility": "internal"
                 }
               ],
-              "src": "1372:18:3"
+              "src": "1372:18:6"
             },
             "returnParameters": {
-              "id": 1778,
+              "id": 1992,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1777,
+                  "id": 1991,
                   "mutability": "mutable",
                   "name": "",
-                  "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1791,
-                  "src": "1409:7:3",
+                  "scope": 2005,
+                  "src": "1409:7:6",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -738,10 +726,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1776,
+                    "id": 1990,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1409:7:3",
+                    "src": "1409:7:6",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -750,19 +738,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1408:9:3"
+              "src": "1408:9:6"
             },
-            "scope": 1856,
-            "src": "1346:146:3",
+            "scope": 2070,
+            "src": "1346:146:6",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "internal"
           },
           {
             "body": {
-              "id": 1806,
+              "id": 2020,
               "nodeType": "Block",
-              "src": "1994:168:3",
+              "src": "1994:168:6",
               "statements": [
                 {
                   "expression": {
@@ -770,7 +758,7 @@
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     },
-                    "id": 1804,
+                    "id": 2018,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -778,12 +766,12 @@
                     "leftExpression": {
                       "arguments": [
                         {
-                          "id": 1801,
+                          "id": 2015,
                           "name": "_id",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1794,
-                          "src": "2148:3:3",
+                          "referencedDeclaration": 2008,
+                          "src": "2148:3:6",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -798,32 +786,32 @@
                           }
                         ],
                         "expression": {
-                          "id": 1799,
+                          "id": 2013,
                           "name": "wrb",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1744,
-                          "src": "2131:3:3",
+                          "referencedDeclaration": 1958,
+                          "src": "2131:3:6",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_WitnetRequestBoardInterface_$3782",
+                            "typeIdentifier": "t_contract$_WitnetRequestBoardInterface_$3490",
                             "typeString": "contract WitnetRequestBoardInterface"
                           }
                         },
-                        "id": 1800,
+                        "id": 2014,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "readDrTxHash",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 3757,
-                        "src": "2131:16:3",
+                        "referencedDeclaration": 3465,
+                        "src": "2131:16:6",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_external_view$_t_uint256_$returns$_t_uint256_$",
                           "typeString": "function (uint256) view external returns (uint256)"
                         }
                       },
-                      "id": 1802,
+                      "id": 2016,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -831,7 +819,7 @@
                       "lValueRequested": false,
                       "names": [],
                       "nodeType": "FunctionCall",
-                      "src": "2131:21:3",
+                      "src": "2131:21:6",
                       "tryCall": false,
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -842,59 +830,57 @@
                     "operator": "!=",
                     "rightExpression": {
                       "hexValue": "30",
-                      "id": 1803,
+                      "id": 2017,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
                       "kind": "number",
                       "lValueRequested": false,
                       "nodeType": "Literal",
-                      "src": "2156:1:3",
+                      "src": "2156:1:6",
                       "typeDescriptions": {
                         "typeIdentifier": "t_rational_0_by_1",
                         "typeString": "int_const 0"
                       },
                       "value": "0"
                     },
-                    "src": "2131:26:3",
+                    "src": "2131:26:6",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
                     }
                   },
-                  "functionReturnParameters": 1798,
-                  "id": 1805,
+                  "functionReturnParameters": 2012,
+                  "id": 2019,
                   "nodeType": "Return",
-                  "src": "2124:33:3"
+                  "src": "2124:33:6"
                 }
               ]
             },
             "documentation": {
-              "id": 1792,
+              "id": 2006,
               "nodeType": "StructuredDocumentation",
-              "src": "1495:418:3",
+              "src": "1495:418:6",
               "text": " @notice Check if a request has been resolved by Witnet.\n @dev Contracts depending on Witnet should not start their main business logic (e.g. receiving value from third.\n parties) before this method returns `true`.\n @param _id The unique identifier of a request that has been previously sent to the WitnetRequestBoard.\n @return A boolean telling if the request has been already resolved or not."
             },
-            "id": 1807,
+            "id": 2021,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "witnetCheckRequestResolved",
-            "nameLocation": "1925:26:3",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1795,
+              "id": 2009,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1794,
+                  "id": 2008,
                   "mutability": "mutable",
                   "name": "_id",
-                  "nameLocation": "1960:3:3",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1807,
-                  "src": "1952:11:3",
+                  "scope": 2021,
+                  "src": "1952:11:6",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -902,10 +888,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1793,
+                    "id": 2007,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1952:7:3",
+                    "src": "1952:7:6",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -914,21 +900,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1951:13:3"
+              "src": "1951:13:6"
             },
             "returnParameters": {
-              "id": 1798,
+              "id": 2012,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1797,
+                  "id": 2011,
                   "mutability": "mutable",
                   "name": "",
-                  "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1807,
-                  "src": "1988:4:3",
+                  "scope": 2021,
+                  "src": "1988:4:6",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -936,10 +921,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 1796,
+                    "id": 2010,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1988:4:3",
+                    "src": "1988:4:6",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -948,30 +933,30 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1987:6:3"
+              "src": "1987:6:6"
             },
-            "scope": 1856,
-            "src": "1916:246:3",
+            "scope": 2070,
+            "src": "1916:246:6",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "internal"
           },
           {
             "body": {
-              "id": 1822,
+              "id": 2036,
               "nodeType": "Block",
-              "src": "2481:56:3",
+              "src": "2481:56:6",
               "statements": [
                 {
                   "expression": {
                     "arguments": [
                       {
-                        "id": 1819,
+                        "id": 2033,
                         "name": "_id",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1810,
-                        "src": "2528:3:3",
+                        "referencedDeclaration": 2024,
+                        "src": "2528:3:6",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -993,32 +978,32 @@
                           }
                         ],
                         "expression": {
-                          "id": 1813,
+                          "id": 2027,
                           "name": "wrb",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1744,
-                          "src": "2487:3:3",
+                          "referencedDeclaration": 1958,
+                          "src": "2487:3:6",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_WitnetRequestBoardInterface_$3782",
+                            "typeIdentifier": "t_contract$_WitnetRequestBoardInterface_$3490",
                             "typeString": "contract WitnetRequestBoardInterface"
                           }
                         },
-                        "id": 1815,
+                        "id": 2029,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "upgradeDataRequest",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 3749,
-                        "src": "2487:22:3",
+                        "referencedDeclaration": 3457,
+                        "src": "2487:22:6",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_external_payable$_t_uint256_$returns$__$",
                           "typeString": "function (uint256) payable external"
                         }
                       },
-                      "id": 1818,
+                      "id": 2032,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -1030,38 +1015,38 @@
                       "options": [
                         {
                           "expression": {
-                            "id": 1816,
+                            "id": 2030,
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 4294967281,
-                            "src": "2517:3:3",
+                            "src": "2517:3:6",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
                               "typeString": "msg"
                             }
                           },
-                          "id": 1817,
+                          "id": 2031,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
                           "lValueRequested": false,
                           "memberName": "value",
                           "nodeType": "MemberAccess",
-                          "src": "2517:9:3",
+                          "src": "2517:9:6",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
                           }
                         }
                       ],
-                      "src": "2487:40:3",
+                      "src": "2487:40:6",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_payable$_t_uint256_$returns$__$value",
                         "typeString": "function (uint256) payable external"
                       }
                     },
-                    "id": 1820,
+                    "id": 2034,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1069,45 +1054,43 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "2487:45:3",
+                    "src": "2487:45:6",
                     "tryCall": false,
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 1821,
+                  "id": 2035,
                   "nodeType": "ExpressionStatement",
-                  "src": "2487:45:3"
+                  "src": "2487:45:6"
                 }
               ]
             },
             "documentation": {
-              "id": 1808,
+              "id": 2022,
               "nodeType": "StructuredDocumentation",
-              "src": "2165:261:3",
+              "src": "2165:261:6",
               "text": " @notice Upgrade the reward for a Data Request previously included.\n @dev Call to `upgrade_dr` function in the WitnetRequestBoard contract.\n @param _id The unique identifier of a request that has been previously sent to the WitnetRequestBoard."
             },
-            "id": 1823,
+            "id": 2037,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "witnetUpgradeRequest",
-            "nameLocation": "2438:20:3",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1811,
+              "id": 2025,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1810,
+                  "id": 2024,
                   "mutability": "mutable",
                   "name": "_id",
-                  "nameLocation": "2467:3:3",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1823,
-                  "src": "2459:11:3",
+                  "scope": 2037,
+                  "src": "2459:11:6",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1115,10 +1098,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1809,
+                    "id": 2023,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "2459:7:3",
+                    "src": "2459:7:6",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1127,25 +1110,25 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "2458:13:3"
+              "src": "2458:13:6"
             },
             "returnParameters": {
-              "id": 1812,
+              "id": 2026,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "2481:0:3"
+              "src": "2481:0:6"
             },
-            "scope": 1856,
-            "src": "2429:108:3",
+            "scope": 2070,
+            "src": "2429:108:6",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "internal"
           },
           {
             "body": {
-              "id": 1840,
+              "id": 2054,
               "nodeType": "Block",
-              "src": "2905:65:3",
+              "src": "2905:65:6",
               "statements": [
                 {
                   "expression": {
@@ -1153,12 +1136,12 @@
                       {
                         "arguments": [
                           {
-                            "id": 1836,
+                            "id": 2050,
                             "name": "_id",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1826,
-                            "src": "2960:3:3",
+                            "referencedDeclaration": 2040,
+                            "src": "2960:3:6",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -1173,32 +1156,32 @@
                             }
                           ],
                           "expression": {
-                            "id": 1834,
+                            "id": 2048,
                             "name": "wrb",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1744,
-                            "src": "2945:3:3",
+                            "referencedDeclaration": 1958,
+                            "src": "2945:3:6",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_WitnetRequestBoardInterface_$3782",
+                              "typeIdentifier": "t_contract$_WitnetRequestBoardInterface_$3490",
                               "typeString": "contract WitnetRequestBoardInterface"
                             }
                           },
-                          "id": 1835,
+                          "id": 2049,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
                           "lValueRequested": false,
                           "memberName": "readResult",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 3765,
-                          "src": "2945:14:3",
+                          "referencedDeclaration": 3473,
+                          "src": "2945:14:6",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_external_view$_t_uint256_$returns$_t_bytes_memory_ptr_$",
                             "typeString": "function (uint256) view external returns (bytes memory)"
                           }
                         },
-                        "id": 1837,
+                        "id": 2051,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -1206,7 +1189,7 @@
                         "lValueRequested": false,
                         "names": [],
                         "nodeType": "FunctionCall",
-                        "src": "2945:19:3",
+                        "src": "2945:19:6",
                         "tryCall": false,
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes_memory_ptr",
@@ -1222,32 +1205,32 @@
                         }
                       ],
                       "expression": {
-                        "id": 1832,
+                        "id": 2046,
                         "name": "Witnet",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 3218,
-                        "src": "2918:6:3",
+                        "referencedDeclaration": 3432,
+                        "src": "2918:6:6",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_contract$_Witnet_$3218_$",
+                          "typeIdentifier": "t_type$_t_contract$_Witnet_$3432_$",
                           "typeString": "type(library Witnet)"
                         }
                       },
-                      "id": 1833,
+                      "id": 2047,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "resultFromCborBytes",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 2152,
-                      "src": "2918:26:3",
+                      "referencedDeclaration": 2366,
+                      "src": "2918:26:6",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_delegatecall_pure$_t_bytes_memory_ptr_$returns$_t_struct$_Result_$1871_memory_ptr_$",
+                        "typeIdentifier": "t_function_delegatecall_pure$_t_bytes_memory_ptr_$returns$_t_struct$_Result_$2085_memory_ptr_$",
                         "typeString": "function (bytes memory) pure returns (struct Witnet.Result memory)"
                       }
                     },
-                    "id": 1838,
+                    "id": 2052,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1255,46 +1238,44 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "2918:47:3",
+                    "src": "2918:47:6",
                     "tryCall": false,
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_Result_$1871_memory_ptr",
+                      "typeIdentifier": "t_struct$_Result_$2085_memory_ptr",
                       "typeString": "struct Witnet.Result memory"
                     }
                   },
-                  "functionReturnParameters": 1831,
-                  "id": 1839,
+                  "functionReturnParameters": 2045,
+                  "id": 2053,
                   "nodeType": "Return",
-                  "src": "2911:54:3"
+                  "src": "2911:54:6"
                 }
               ]
             },
             "documentation": {
-              "id": 1824,
+              "id": 2038,
               "nodeType": "StructuredDocumentation",
-              "src": "2540:278:3",
+              "src": "2540:278:6",
               "text": " @notice Read the result of a resolved request.\n @dev Call to `read_result` function in the WitnetRequestBoard contract.\n @param _id The unique identifier of a request that was posted to Witnet.\n @return The result of the request as an instance of `Result`."
             },
-            "id": 1841,
+            "id": 2055,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "witnetReadResult",
-            "nameLocation": "2830:16:3",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1827,
+              "id": 2041,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1826,
+                  "id": 2040,
                   "mutability": "mutable",
                   "name": "_id",
-                  "nameLocation": "2855:3:3",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1841,
-                  "src": "2847:11:3",
+                  "scope": 2055,
+                  "src": "2847:11:6",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1302,10 +1283,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1825,
+                    "id": 2039,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "2847:7:3",
+                    "src": "2847:7:6",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1314,71 +1295,70 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "2846:13:3"
+              "src": "2846:13:6"
             },
             "returnParameters": {
-              "id": 1831,
+              "id": 2045,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1830,
+                  "id": 2044,
                   "mutability": "mutable",
                   "name": "",
-                  "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1841,
-                  "src": "2883:20:3",
+                  "scope": 2055,
+                  "src": "2883:20:6",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_struct$_Result_$1871_memory_ptr",
+                    "typeIdentifier": "t_struct$_Result_$2085_memory_ptr",
                     "typeString": "struct Witnet.Result"
                   },
                   "typeName": {
-                    "id": 1829,
+                    "id": 2043,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 1828,
+                      "id": 2042,
                       "name": "Witnet.Result",
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 1871,
-                      "src": "2883:13:3"
+                      "referencedDeclaration": 2085,
+                      "src": "2883:13:6"
                     },
-                    "referencedDeclaration": 1871,
-                    "src": "2883:13:3",
+                    "referencedDeclaration": 2085,
+                    "src": "2883:13:6",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_Result_$1871_storage_ptr",
+                      "typeIdentifier": "t_struct$_Result_$2085_storage_ptr",
                       "typeString": "struct Witnet.Result"
                     }
                   },
                   "visibility": "internal"
                 }
               ],
-              "src": "2882:22:3"
+              "src": "2882:22:6"
             },
-            "scope": 1856,
-            "src": "2821:149:3",
+            "scope": 2070,
+            "src": "2821:149:6",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "internal"
           },
           {
             "body": {
-              "id": 1854,
+              "id": 2068,
               "nodeType": "Block",
-              "src": "3332:48:3",
+              "src": "3332:48:6",
               "statements": [
                 {
                   "expression": {
                     "arguments": [
                       {
-                        "id": 1851,
+                        "id": 2065,
                         "name": "_gasPrice",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1844,
-                        "src": "3365:9:3",
+                        "referencedDeclaration": 2058,
+                        "src": "3365:9:6",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -1393,32 +1373,32 @@
                         }
                       ],
                       "expression": {
-                        "id": 1849,
+                        "id": 2063,
                         "name": "wrb",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1744,
-                        "src": "3345:3:3",
+                        "referencedDeclaration": 1958,
+                        "src": "3345:3:6",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_WitnetRequestBoardInterface_$3782",
+                          "typeIdentifier": "t_contract$_WitnetRequestBoardInterface_$3490",
                           "typeString": "contract WitnetRequestBoardInterface"
                         }
                       },
-                      "id": 1850,
+                      "id": 2064,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "estimateGasCost",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 3781,
-                      "src": "3345:19:3",
+                      "referencedDeclaration": 3489,
+                      "src": "3345:19:6",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_view$_t_uint256_$returns$_t_uint256_$",
                         "typeString": "function (uint256) view external returns (uint256)"
                       }
                     },
-                    "id": 1852,
+                    "id": 2066,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1426,46 +1406,44 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "3345:30:3",
+                    "src": "3345:30:6",
                     "tryCall": false,
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "functionReturnParameters": 1848,
-                  "id": 1853,
+                  "functionReturnParameters": 2062,
+                  "id": 2067,
                   "nodeType": "Return",
-                  "src": "3338:37:3"
+                  "src": "3338:37:6"
                 }
               ]
             },
             "documentation": {
-              "id": 1842,
+              "id": 2056,
               "nodeType": "StructuredDocumentation",
-              "src": "2973:274:3",
+              "src": "2973:274:6",
               "text": " @notice Estimate the reward amount.\n @dev Call to `estimate_gas_cost` function in the WitnetRequestBoard contract.\n @param _gasPrice The gas price for which we want to retrieve the estimation.\n @return The reward to be included for the given gas price."
             },
-            "id": 1855,
+            "id": 2069,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "witnetEstimateGasCost",
-            "nameLocation": "3259:21:3",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1845,
+              "id": 2059,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1844,
+                  "id": 2058,
                   "mutability": "mutable",
                   "name": "_gasPrice",
-                  "nameLocation": "3289:9:3",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1855,
-                  "src": "3281:17:3",
+                  "scope": 2069,
+                  "src": "3281:17:6",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1473,10 +1451,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1843,
+                    "id": 2057,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "3281:7:3",
+                    "src": "3281:7:6",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1485,21 +1463,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "3280:19:3"
+              "src": "3280:19:6"
             },
             "returnParameters": {
-              "id": 1848,
+              "id": 2062,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1847,
+                  "id": 2061,
                   "mutability": "mutable",
                   "name": "",
-                  "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1855,
-                  "src": "3323:7:3",
+                  "scope": 2069,
+                  "src": "3323:7:6",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1507,10 +1484,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1846,
+                    "id": 2060,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "3323:7:3",
+                    "src": "3323:7:6",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1519,50 +1496,49 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "3322:9:3"
+              "src": "3322:9:6"
             },
-            "scope": 1856,
-            "src": "3250:130:3",
+            "scope": 2070,
+            "src": "3250:130:6",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "internal"
           }
         ],
-        "scope": 1857,
-        "src": "331:3051:3",
-        "usedErrors": []
+        "scope": 2071,
+        "src": "331:3051:6"
       }
     ],
-    "src": "33:3350:3"
+    "src": "33:3350:6"
   },
   "legacyAST": {
-    "absolutePath": "project:/contracts/UsingWitnet.sol",
+    "absolutePath": "witnet-ethereum-bridge/contracts/UsingWitnet.sol",
     "exportedSymbols": {
       "BufferLib": [
-        640
+        854
       ],
       "CBOR": [
-        1713
+        1927
       ],
       "Request": [
-        1730
+        1944
       ],
       "UsingWitnet": [
-        1856
+        2070
       ],
       "Witnet": [
-        3218
+        3432
       ],
       "WitnetRequestBoardInterface": [
-        3782
+        3490
       ]
     },
-    "id": 1857,
+    "id": 2071,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 1732,
+        "id": 1946,
         "literals": [
           "solidity",
           ">=",
@@ -1573,50 +1549,47 @@
           ".0"
         ],
         "nodeType": "PragmaDirective",
-        "src": "33:31:3"
+        "src": "33:31:6"
       },
       {
-        "id": 1733,
+        "id": 1947,
         "literals": [
           "experimental",
           "ABIEncoderV2"
         ],
         "nodeType": "PragmaDirective",
-        "src": "65:33:3"
+        "src": "65:33:6"
       },
       {
-        "absolutePath": "project:/contracts/Request.sol",
+        "absolutePath": "witnet-ethereum-bridge/contracts/Request.sol",
         "file": "./Request.sol",
-        "id": 1734,
-        "nameLocation": "-1:-1:-1",
+        "id": 1948,
         "nodeType": "ImportDirective",
-        "scope": 1857,
-        "sourceUnit": 1731,
-        "src": "100:23:3",
+        "scope": 2071,
+        "sourceUnit": 1945,
+        "src": "100:23:6",
         "symbolAliases": [],
         "unitAlias": ""
       },
       {
-        "absolutePath": "project:/contracts/Witnet.sol",
+        "absolutePath": "witnet-ethereum-bridge/contracts/Witnet.sol",
         "file": "./Witnet.sol",
-        "id": 1735,
-        "nameLocation": "-1:-1:-1",
+        "id": 1949,
         "nodeType": "ImportDirective",
-        "scope": 1857,
-        "sourceUnit": 3219,
-        "src": "124:22:3",
+        "scope": 2071,
+        "sourceUnit": 3433,
+        "src": "124:22:6",
         "symbolAliases": [],
         "unitAlias": ""
       },
       {
-        "absolutePath": "project:/contracts/WitnetRequestBoardInterface.sol",
+        "absolutePath": "witnet-ethereum-bridge/contracts/WitnetRequestBoardInterface.sol",
         "file": "./WitnetRequestBoardInterface.sol",
-        "id": 1736,
-        "nameLocation": "-1:-1:-1",
+        "id": 1950,
         "nodeType": "ImportDirective",
-        "scope": 1857,
-        "sourceUnit": 3783,
-        "src": "147:43:3",
+        "scope": 2071,
+        "sourceUnit": 3491,
+        "src": "147:43:6",
         "symbolAliases": [],
         "unitAlias": ""
       },
@@ -1626,78 +1599,76 @@
         "contractDependencies": [],
         "contractKind": "contract",
         "documentation": {
-          "id": 1737,
+          "id": 1951,
           "nodeType": "StructuredDocumentation",
-          "src": "193:137:3",
+          "src": "193:137:6",
           "text": " @title The UsingWitnet contract\n @notice Contract writers can inherit this contract in order to create Witnet data requests."
         },
         "fullyImplemented": true,
-        "id": 1856,
+        "id": 2070,
         "linearizedBaseContracts": [
-          1856
+          2070
         ],
         "name": "UsingWitnet",
-        "nameLocation": "349:11:3",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
-            "id": 1741,
+            "id": 1955,
             "libraryName": {
-              "id": 1738,
+              "id": 1952,
               "name": "Witnet",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 3218,
-              "src": "371:6:3"
+              "referencedDeclaration": 3432,
+              "src": "371:6:6"
             },
             "nodeType": "UsingForDirective",
-            "src": "365:31:3",
+            "src": "365:31:6",
             "typeName": {
-              "id": 1740,
+              "id": 1954,
               "nodeType": "UserDefinedTypeName",
               "pathNode": {
-                "id": 1739,
+                "id": 1953,
                 "name": "Witnet.Result",
                 "nodeType": "IdentifierPath",
-                "referencedDeclaration": 1871,
-                "src": "382:13:3"
+                "referencedDeclaration": 2085,
+                "src": "382:13:6"
               },
-              "referencedDeclaration": 1871,
-              "src": "382:13:3",
+              "referencedDeclaration": 2085,
+              "src": "382:13:6",
               "typeDescriptions": {
-                "typeIdentifier": "t_struct$_Result_$1871_storage_ptr",
+                "typeIdentifier": "t_struct$_Result_$2085_storage_ptr",
                 "typeString": "struct Witnet.Result"
               }
             }
           },
           {
             "constant": false,
-            "id": 1744,
+            "id": 1958,
             "mutability": "immutable",
             "name": "wrb",
-            "nameLocation": "447:3:3",
             "nodeType": "VariableDeclaration",
-            "scope": 1856,
-            "src": "400:50:3",
+            "scope": 2070,
+            "src": "400:50:6",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_WitnetRequestBoardInterface_$3782",
+              "typeIdentifier": "t_contract$_WitnetRequestBoardInterface_$3490",
               "typeString": "contract WitnetRequestBoardInterface"
             },
             "typeName": {
-              "id": 1743,
+              "id": 1957,
               "nodeType": "UserDefinedTypeName",
               "pathNode": {
-                "id": 1742,
+                "id": 1956,
                 "name": "WitnetRequestBoardInterface",
                 "nodeType": "IdentifierPath",
-                "referencedDeclaration": 3782,
-                "src": "400:27:3"
+                "referencedDeclaration": 3490,
+                "src": "400:27:6"
               },
-              "referencedDeclaration": 3782,
-              "src": "400:27:3",
+              "referencedDeclaration": 3490,
+              "src": "400:27:6",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_WitnetRequestBoardInterface_$3782",
+                "typeIdentifier": "t_contract$_WitnetRequestBoardInterface_$3490",
                 "typeString": "contract WitnetRequestBoardInterface"
               }
             },
@@ -1705,26 +1676,26 @@
           },
           {
             "body": {
-              "id": 1756,
+              "id": 1970,
               "nodeType": "Block",
-              "src": "601:50:3",
+              "src": "601:50:6",
               "statements": [
                 {
                   "expression": {
-                    "id": 1754,
+                    "id": 1968,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
-                      "id": 1750,
+                      "id": 1964,
                       "name": "wrb",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1744,
-                      "src": "607:3:3",
+                      "referencedDeclaration": 1958,
+                      "src": "607:3:6",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_WitnetRequestBoardInterface_$3782",
+                        "typeIdentifier": "t_contract$_WitnetRequestBoardInterface_$3490",
                         "typeString": "contract WitnetRequestBoardInterface"
                       }
                     },
@@ -1733,12 +1704,12 @@
                     "rightHandSide": {
                       "arguments": [
                         {
-                          "id": 1752,
+                          "id": 1966,
                           "name": "_wrb",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1747,
-                          "src": "641:4:3",
+                          "referencedDeclaration": 1961,
+                          "src": "641:4:6",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
                             "typeString": "address"
@@ -1752,18 +1723,18 @@
                             "typeString": "address"
                           }
                         ],
-                        "id": 1751,
+                        "id": 1965,
                         "name": "WitnetRequestBoardInterface",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 3782,
-                        "src": "613:27:3",
+                        "referencedDeclaration": 3490,
+                        "src": "613:27:6",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_contract$_WitnetRequestBoardInterface_$3782_$",
+                          "typeIdentifier": "t_type$_t_contract$_WitnetRequestBoardInterface_$3490_$",
                           "typeString": "type(contract WitnetRequestBoardInterface)"
                         }
                       },
-                      "id": 1753,
+                      "id": 1967,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -1771,51 +1742,49 @@
                       "lValueRequested": false,
                       "names": [],
                       "nodeType": "FunctionCall",
-                      "src": "613:33:3",
+                      "src": "613:33:6",
                       "tryCall": false,
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_WitnetRequestBoardInterface_$3782",
+                        "typeIdentifier": "t_contract$_WitnetRequestBoardInterface_$3490",
                         "typeString": "contract WitnetRequestBoardInterface"
                       }
                     },
-                    "src": "607:39:3",
+                    "src": "607:39:6",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_WitnetRequestBoardInterface_$3782",
+                      "typeIdentifier": "t_contract$_WitnetRequestBoardInterface_$3490",
                       "typeString": "contract WitnetRequestBoardInterface"
                     }
                   },
-                  "id": 1755,
+                  "id": 1969,
                   "nodeType": "ExpressionStatement",
-                  "src": "607:39:3"
+                  "src": "607:39:6"
                 }
               ]
             },
             "documentation": {
-              "id": 1745,
+              "id": 1959,
               "nodeType": "StructuredDocumentation",
-              "src": "454:118:3",
+              "src": "454:118:6",
               "text": " @notice Include an address to specify the WitnetRequestBoard.\n @param _wrb WitnetRequestBoard address."
             },
-            "id": 1757,
+            "id": 1971,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [],
             "name": "",
-            "nameLocation": "-1:-1:-1",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1748,
+              "id": 1962,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1747,
+                  "id": 1961,
                   "mutability": "mutable",
                   "name": "_wrb",
-                  "nameLocation": "595:4:3",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1757,
-                  "src": "587:12:3",
+                  "scope": 1971,
+                  "src": "587:12:6",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1823,10 +1792,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1746,
+                    "id": 1960,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "587:7:3",
+                    "src": "587:7:6",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1836,25 +1805,25 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "586:14:3"
+              "src": "586:14:6"
             },
             "returnParameters": {
-              "id": 1749,
+              "id": 1963,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "601:0:3"
+              "src": "601:0:6"
             },
-            "scope": 1856,
-            "src": "575:76:3",
+            "scope": 2070,
+            "src": "575:76:6",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "internal"
           },
           {
             "body": {
-              "id": 1769,
+              "id": 1983,
               "nodeType": "Block",
-              "src": "896:118:3",
+              "src": "896:118:6",
               "statements": [
                 {
                   "expression": {
@@ -1862,12 +1831,12 @@
                       {
                         "arguments": [
                           {
-                            "id": 1763,
+                            "id": 1977,
                             "name": "_id",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1759,
-                            "src": "937:3:3",
+                            "referencedDeclaration": 1973,
+                            "src": "937:3:6",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -1881,18 +1850,18 @@
                               "typeString": "uint256"
                             }
                           ],
-                          "id": 1762,
+                          "id": 1976,
                           "name": "witnetCheckRequestResolved",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1807,
-                          "src": "910:26:3",
+                          "referencedDeclaration": 2021,
+                          "src": "910:26:6",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_view$_t_uint256_$returns$_t_bool_$",
                             "typeString": "function (uint256) view returns (bool)"
                           }
                         },
-                        "id": 1764,
+                        "id": 1978,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -1900,7 +1869,7 @@
                         "lValueRequested": false,
                         "names": [],
                         "nodeType": "FunctionCall",
-                        "src": "910:31:3",
+                        "src": "910:31:6",
                         "tryCall": false,
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
@@ -1909,14 +1878,14 @@
                       },
                       {
                         "hexValue": "5769746e65742072657175657374206973206e6f7420796574207265736f6c76656420627920746865205769746e6574206e6574776f726b",
-                        "id": 1765,
+                        "id": 1979,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
                         "kind": "string",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "943:58:3",
+                        "src": "943:58:6",
                         "typeDescriptions": {
                           "typeIdentifier": "t_stringliteral_3d8134c7e02076cde7b92643f7e4c1b71b60a9cb92aa29444d300076b8f763b2",
                           "typeString": "literal_string \"Witnet request is not yet resolved by the Witnet network\""
@@ -1935,7 +1904,7 @@
                           "typeString": "literal_string \"Witnet request is not yet resolved by the Witnet network\""
                         }
                       ],
-                      "id": 1761,
+                      "id": 1975,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
@@ -1943,13 +1912,13 @@
                         4294967278
                       ],
                       "referencedDeclaration": 4294967278,
-                      "src": "902:7:3",
+                      "src": "902:7:6",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (bool,string memory) pure"
                       }
                     },
-                    "id": 1766,
+                    "id": 1980,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1957,41 +1926,39 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "902:100:3",
+                    "src": "902:100:6",
                     "tryCall": false,
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 1767,
+                  "id": 1981,
                   "nodeType": "ExpressionStatement",
-                  "src": "902:100:3"
+                  "src": "902:100:6"
                 },
                 {
-                  "id": 1768,
+                  "id": 1982,
                   "nodeType": "PlaceholderStatement",
-                  "src": "1008:1:3"
+                  "src": "1008:1:6"
                 }
               ]
             },
-            "id": 1770,
+            "id": 1984,
             "name": "witnetRequestResolved",
-            "nameLocation": "861:21:3",
             "nodeType": "ModifierDefinition",
             "parameters": {
-              "id": 1760,
+              "id": 1974,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1759,
+                  "id": 1973,
                   "mutability": "mutable",
                   "name": "_id",
-                  "nameLocation": "891:3:3",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1770,
-                  "src": "883:11:3",
+                  "scope": 1984,
+                  "src": "883:11:6",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1999,10 +1966,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1758,
+                    "id": 1972,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "883:7:3",
+                    "src": "883:7:6",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -2011,17 +1978,17 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "882:13:3"
+              "src": "882:13:6"
             },
-            "src": "852:162:3",
+            "src": "852:162:6",
             "virtual": false,
             "visibility": "internal"
           },
           {
             "body": {
-              "id": 1790,
+              "id": 2004,
               "nodeType": "Block",
-              "src": "1418:74:3",
+              "src": "1418:74:6",
               "statements": [
                 {
                   "expression": {
@@ -2029,14 +1996,14 @@
                       {
                         "arguments": [
                           {
-                            "id": 1786,
+                            "id": 2000,
                             "name": "_request",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1774,
-                            "src": "1477:8:3",
+                            "referencedDeclaration": 1988,
+                            "src": "1477:8:6",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_Request_$1730",
+                              "typeIdentifier": "t_contract$_Request_$1944",
                               "typeString": "contract Request"
                             }
                           }
@@ -2044,30 +2011,30 @@
                         "expression": {
                           "argumentTypes": [
                             {
-                              "typeIdentifier": "t_contract$_Request_$1730",
+                              "typeIdentifier": "t_contract$_Request_$1944",
                               "typeString": "contract Request"
                             }
                           ],
-                          "id": 1785,
+                          "id": 1999,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
                           "lValueRequested": false,
                           "nodeType": "ElementaryTypeNameExpression",
-                          "src": "1469:7:3",
+                          "src": "1469:7:6",
                           "typeDescriptions": {
                             "typeIdentifier": "t_type$_t_address_$",
                             "typeString": "type(address)"
                           },
                           "typeName": {
-                            "id": 1784,
+                            "id": 1998,
                             "name": "address",
                             "nodeType": "ElementaryTypeName",
-                            "src": "1469:7:3",
+                            "src": "1469:7:6",
                             "typeDescriptions": {}
                           }
                         },
-                        "id": 1787,
+                        "id": 2001,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -2075,7 +2042,7 @@
                         "lValueRequested": false,
                         "names": [],
                         "nodeType": "FunctionCall",
-                        "src": "1469:17:3",
+                        "src": "1469:17:6",
                         "tryCall": false,
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
@@ -2098,32 +2065,32 @@
                           }
                         ],
                         "expression": {
-                          "id": 1779,
+                          "id": 1993,
                           "name": "wrb",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1744,
-                          "src": "1431:3:3",
+                          "referencedDeclaration": 1958,
+                          "src": "1431:3:6",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_WitnetRequestBoardInterface_$3782",
+                            "typeIdentifier": "t_contract$_WitnetRequestBoardInterface_$3490",
                             "typeString": "contract WitnetRequestBoardInterface"
                           }
                         },
-                        "id": 1780,
+                        "id": 1994,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "postDataRequest",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 3743,
-                        "src": "1431:19:3",
+                        "referencedDeclaration": 3451,
+                        "src": "1431:19:6",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_external_payable$_t_address_$returns$_t_uint256_$",
                           "typeString": "function (address) payable external returns (uint256)"
                         }
                       },
-                      "id": 1783,
+                      "id": 1997,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -2135,38 +2102,38 @@
                       "options": [
                         {
                           "expression": {
-                            "id": 1781,
+                            "id": 1995,
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 4294967281,
-                            "src": "1458:3:3",
+                            "src": "1458:3:6",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
                               "typeString": "msg"
                             }
                           },
-                          "id": 1782,
+                          "id": 1996,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
                           "lValueRequested": false,
                           "memberName": "value",
                           "nodeType": "MemberAccess",
-                          "src": "1458:9:3",
+                          "src": "1458:9:6",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
                           }
                         }
                       ],
-                      "src": "1431:37:3",
+                      "src": "1431:37:6",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_payable$_t_address_$returns$_t_uint256_$value",
                         "typeString": "function (address) payable external returns (uint256)"
                       }
                     },
-                    "id": 1788,
+                    "id": 2002,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2174,87 +2141,84 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "1431:56:3",
+                    "src": "1431:56:6",
                     "tryCall": false,
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "functionReturnParameters": 1778,
-                  "id": 1789,
+                  "functionReturnParameters": 1992,
+                  "id": 2003,
                   "nodeType": "Return",
-                  "src": "1424:63:3"
+                  "src": "1424:63:6"
                 }
               ]
             },
             "documentation": {
-              "id": 1771,
+              "id": 1985,
               "nodeType": "StructuredDocumentation",
-              "src": "1017:326:3",
+              "src": "1017:326:6",
               "text": " @notice Send a new request to the Witnet network with transaction value as result report reward.\n @dev Call to `post_dr` function in the WitnetRequestBoard contract.\n @param _request An instance of the `Request` contract.\n @return Sequencial identifier for the request included in the WitnetRequestBoard."
             },
-            "id": 1791,
+            "id": 2005,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "witnetPostRequest",
-            "nameLocation": "1355:17:3",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1775,
+              "id": 1989,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1774,
+                  "id": 1988,
                   "mutability": "mutable",
                   "name": "_request",
-                  "nameLocation": "1381:8:3",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1791,
-                  "src": "1373:16:3",
+                  "scope": 2005,
+                  "src": "1373:16:6",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_Request_$1730",
+                    "typeIdentifier": "t_contract$_Request_$1944",
                     "typeString": "contract Request"
                   },
                   "typeName": {
-                    "id": 1773,
+                    "id": 1987,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 1772,
+                      "id": 1986,
                       "name": "Request",
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 1730,
-                      "src": "1373:7:3"
+                      "referencedDeclaration": 1944,
+                      "src": "1373:7:6"
                     },
-                    "referencedDeclaration": 1730,
-                    "src": "1373:7:3",
+                    "referencedDeclaration": 1944,
+                    "src": "1373:7:6",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_Request_$1730",
+                      "typeIdentifier": "t_contract$_Request_$1944",
                       "typeString": "contract Request"
                     }
                   },
                   "visibility": "internal"
                 }
               ],
-              "src": "1372:18:3"
+              "src": "1372:18:6"
             },
             "returnParameters": {
-              "id": 1778,
+              "id": 1992,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1777,
+                  "id": 1991,
                   "mutability": "mutable",
                   "name": "",
-                  "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1791,
-                  "src": "1409:7:3",
+                  "scope": 2005,
+                  "src": "1409:7:6",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2262,10 +2226,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1776,
+                    "id": 1990,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1409:7:3",
+                    "src": "1409:7:6",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -2274,19 +2238,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1408:9:3"
+              "src": "1408:9:6"
             },
-            "scope": 1856,
-            "src": "1346:146:3",
+            "scope": 2070,
+            "src": "1346:146:6",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "internal"
           },
           {
             "body": {
-              "id": 1806,
+              "id": 2020,
               "nodeType": "Block",
-              "src": "1994:168:3",
+              "src": "1994:168:6",
               "statements": [
                 {
                   "expression": {
@@ -2294,7 +2258,7 @@
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     },
-                    "id": 1804,
+                    "id": 2018,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2302,12 +2266,12 @@
                     "leftExpression": {
                       "arguments": [
                         {
-                          "id": 1801,
+                          "id": 2015,
                           "name": "_id",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1794,
-                          "src": "2148:3:3",
+                          "referencedDeclaration": 2008,
+                          "src": "2148:3:6",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -2322,32 +2286,32 @@
                           }
                         ],
                         "expression": {
-                          "id": 1799,
+                          "id": 2013,
                           "name": "wrb",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1744,
-                          "src": "2131:3:3",
+                          "referencedDeclaration": 1958,
+                          "src": "2131:3:6",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_WitnetRequestBoardInterface_$3782",
+                            "typeIdentifier": "t_contract$_WitnetRequestBoardInterface_$3490",
                             "typeString": "contract WitnetRequestBoardInterface"
                           }
                         },
-                        "id": 1800,
+                        "id": 2014,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "readDrTxHash",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 3757,
-                        "src": "2131:16:3",
+                        "referencedDeclaration": 3465,
+                        "src": "2131:16:6",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_external_view$_t_uint256_$returns$_t_uint256_$",
                           "typeString": "function (uint256) view external returns (uint256)"
                         }
                       },
-                      "id": 1802,
+                      "id": 2016,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -2355,7 +2319,7 @@
                       "lValueRequested": false,
                       "names": [],
                       "nodeType": "FunctionCall",
-                      "src": "2131:21:3",
+                      "src": "2131:21:6",
                       "tryCall": false,
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -2366,59 +2330,57 @@
                     "operator": "!=",
                     "rightExpression": {
                       "hexValue": "30",
-                      "id": 1803,
+                      "id": 2017,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
                       "kind": "number",
                       "lValueRequested": false,
                       "nodeType": "Literal",
-                      "src": "2156:1:3",
+                      "src": "2156:1:6",
                       "typeDescriptions": {
                         "typeIdentifier": "t_rational_0_by_1",
                         "typeString": "int_const 0"
                       },
                       "value": "0"
                     },
-                    "src": "2131:26:3",
+                    "src": "2131:26:6",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
                     }
                   },
-                  "functionReturnParameters": 1798,
-                  "id": 1805,
+                  "functionReturnParameters": 2012,
+                  "id": 2019,
                   "nodeType": "Return",
-                  "src": "2124:33:3"
+                  "src": "2124:33:6"
                 }
               ]
             },
             "documentation": {
-              "id": 1792,
+              "id": 2006,
               "nodeType": "StructuredDocumentation",
-              "src": "1495:418:3",
+              "src": "1495:418:6",
               "text": " @notice Check if a request has been resolved by Witnet.\n @dev Contracts depending on Witnet should not start their main business logic (e.g. receiving value from third.\n parties) before this method returns `true`.\n @param _id The unique identifier of a request that has been previously sent to the WitnetRequestBoard.\n @return A boolean telling if the request has been already resolved or not."
             },
-            "id": 1807,
+            "id": 2021,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "witnetCheckRequestResolved",
-            "nameLocation": "1925:26:3",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1795,
+              "id": 2009,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1794,
+                  "id": 2008,
                   "mutability": "mutable",
                   "name": "_id",
-                  "nameLocation": "1960:3:3",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1807,
-                  "src": "1952:11:3",
+                  "scope": 2021,
+                  "src": "1952:11:6",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2426,10 +2388,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1793,
+                    "id": 2007,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1952:7:3",
+                    "src": "1952:7:6",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -2438,21 +2400,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1951:13:3"
+              "src": "1951:13:6"
             },
             "returnParameters": {
-              "id": 1798,
+              "id": 2012,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1797,
+                  "id": 2011,
                   "mutability": "mutable",
                   "name": "",
-                  "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1807,
-                  "src": "1988:4:3",
+                  "scope": 2021,
+                  "src": "1988:4:6",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2460,10 +2421,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 1796,
+                    "id": 2010,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1988:4:3",
+                    "src": "1988:4:6",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -2472,30 +2433,30 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1987:6:3"
+              "src": "1987:6:6"
             },
-            "scope": 1856,
-            "src": "1916:246:3",
+            "scope": 2070,
+            "src": "1916:246:6",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "internal"
           },
           {
             "body": {
-              "id": 1822,
+              "id": 2036,
               "nodeType": "Block",
-              "src": "2481:56:3",
+              "src": "2481:56:6",
               "statements": [
                 {
                   "expression": {
                     "arguments": [
                       {
-                        "id": 1819,
+                        "id": 2033,
                         "name": "_id",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1810,
-                        "src": "2528:3:3",
+                        "referencedDeclaration": 2024,
+                        "src": "2528:3:6",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -2517,32 +2478,32 @@
                           }
                         ],
                         "expression": {
-                          "id": 1813,
+                          "id": 2027,
                           "name": "wrb",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1744,
-                          "src": "2487:3:3",
+                          "referencedDeclaration": 1958,
+                          "src": "2487:3:6",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_WitnetRequestBoardInterface_$3782",
+                            "typeIdentifier": "t_contract$_WitnetRequestBoardInterface_$3490",
                             "typeString": "contract WitnetRequestBoardInterface"
                           }
                         },
-                        "id": 1815,
+                        "id": 2029,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "upgradeDataRequest",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 3749,
-                        "src": "2487:22:3",
+                        "referencedDeclaration": 3457,
+                        "src": "2487:22:6",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_external_payable$_t_uint256_$returns$__$",
                           "typeString": "function (uint256) payable external"
                         }
                       },
-                      "id": 1818,
+                      "id": 2032,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -2554,38 +2515,38 @@
                       "options": [
                         {
                           "expression": {
-                            "id": 1816,
+                            "id": 2030,
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 4294967281,
-                            "src": "2517:3:3",
+                            "src": "2517:3:6",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
                               "typeString": "msg"
                             }
                           },
-                          "id": 1817,
+                          "id": 2031,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
                           "lValueRequested": false,
                           "memberName": "value",
                           "nodeType": "MemberAccess",
-                          "src": "2517:9:3",
+                          "src": "2517:9:6",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
                           }
                         }
                       ],
-                      "src": "2487:40:3",
+                      "src": "2487:40:6",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_payable$_t_uint256_$returns$__$value",
                         "typeString": "function (uint256) payable external"
                       }
                     },
-                    "id": 1820,
+                    "id": 2034,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2593,45 +2554,43 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "2487:45:3",
+                    "src": "2487:45:6",
                     "tryCall": false,
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 1821,
+                  "id": 2035,
                   "nodeType": "ExpressionStatement",
-                  "src": "2487:45:3"
+                  "src": "2487:45:6"
                 }
               ]
             },
             "documentation": {
-              "id": 1808,
+              "id": 2022,
               "nodeType": "StructuredDocumentation",
-              "src": "2165:261:3",
+              "src": "2165:261:6",
               "text": " @notice Upgrade the reward for a Data Request previously included.\n @dev Call to `upgrade_dr` function in the WitnetRequestBoard contract.\n @param _id The unique identifier of a request that has been previously sent to the WitnetRequestBoard."
             },
-            "id": 1823,
+            "id": 2037,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "witnetUpgradeRequest",
-            "nameLocation": "2438:20:3",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1811,
+              "id": 2025,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1810,
+                  "id": 2024,
                   "mutability": "mutable",
                   "name": "_id",
-                  "nameLocation": "2467:3:3",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1823,
-                  "src": "2459:11:3",
+                  "scope": 2037,
+                  "src": "2459:11:6",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2639,10 +2598,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1809,
+                    "id": 2023,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "2459:7:3",
+                    "src": "2459:7:6",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -2651,25 +2610,25 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "2458:13:3"
+              "src": "2458:13:6"
             },
             "returnParameters": {
-              "id": 1812,
+              "id": 2026,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "2481:0:3"
+              "src": "2481:0:6"
             },
-            "scope": 1856,
-            "src": "2429:108:3",
+            "scope": 2070,
+            "src": "2429:108:6",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "internal"
           },
           {
             "body": {
-              "id": 1840,
+              "id": 2054,
               "nodeType": "Block",
-              "src": "2905:65:3",
+              "src": "2905:65:6",
               "statements": [
                 {
                   "expression": {
@@ -2677,12 +2636,12 @@
                       {
                         "arguments": [
                           {
-                            "id": 1836,
+                            "id": 2050,
                             "name": "_id",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1826,
-                            "src": "2960:3:3",
+                            "referencedDeclaration": 2040,
+                            "src": "2960:3:6",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -2697,32 +2656,32 @@
                             }
                           ],
                           "expression": {
-                            "id": 1834,
+                            "id": 2048,
                             "name": "wrb",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1744,
-                            "src": "2945:3:3",
+                            "referencedDeclaration": 1958,
+                            "src": "2945:3:6",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_WitnetRequestBoardInterface_$3782",
+                              "typeIdentifier": "t_contract$_WitnetRequestBoardInterface_$3490",
                               "typeString": "contract WitnetRequestBoardInterface"
                             }
                           },
-                          "id": 1835,
+                          "id": 2049,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
                           "lValueRequested": false,
                           "memberName": "readResult",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 3765,
-                          "src": "2945:14:3",
+                          "referencedDeclaration": 3473,
+                          "src": "2945:14:6",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_external_view$_t_uint256_$returns$_t_bytes_memory_ptr_$",
                             "typeString": "function (uint256) view external returns (bytes memory)"
                           }
                         },
-                        "id": 1837,
+                        "id": 2051,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -2730,7 +2689,7 @@
                         "lValueRequested": false,
                         "names": [],
                         "nodeType": "FunctionCall",
-                        "src": "2945:19:3",
+                        "src": "2945:19:6",
                         "tryCall": false,
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes_memory_ptr",
@@ -2746,32 +2705,32 @@
                         }
                       ],
                       "expression": {
-                        "id": 1832,
+                        "id": 2046,
                         "name": "Witnet",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 3218,
-                        "src": "2918:6:3",
+                        "referencedDeclaration": 3432,
+                        "src": "2918:6:6",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_contract$_Witnet_$3218_$",
+                          "typeIdentifier": "t_type$_t_contract$_Witnet_$3432_$",
                           "typeString": "type(library Witnet)"
                         }
                       },
-                      "id": 1833,
+                      "id": 2047,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "resultFromCborBytes",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 2152,
-                      "src": "2918:26:3",
+                      "referencedDeclaration": 2366,
+                      "src": "2918:26:6",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_delegatecall_pure$_t_bytes_memory_ptr_$returns$_t_struct$_Result_$1871_memory_ptr_$",
+                        "typeIdentifier": "t_function_delegatecall_pure$_t_bytes_memory_ptr_$returns$_t_struct$_Result_$2085_memory_ptr_$",
                         "typeString": "function (bytes memory) pure returns (struct Witnet.Result memory)"
                       }
                     },
-                    "id": 1838,
+                    "id": 2052,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2779,46 +2738,44 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "2918:47:3",
+                    "src": "2918:47:6",
                     "tryCall": false,
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_Result_$1871_memory_ptr",
+                      "typeIdentifier": "t_struct$_Result_$2085_memory_ptr",
                       "typeString": "struct Witnet.Result memory"
                     }
                   },
-                  "functionReturnParameters": 1831,
-                  "id": 1839,
+                  "functionReturnParameters": 2045,
+                  "id": 2053,
                   "nodeType": "Return",
-                  "src": "2911:54:3"
+                  "src": "2911:54:6"
                 }
               ]
             },
             "documentation": {
-              "id": 1824,
+              "id": 2038,
               "nodeType": "StructuredDocumentation",
-              "src": "2540:278:3",
+              "src": "2540:278:6",
               "text": " @notice Read the result of a resolved request.\n @dev Call to `read_result` function in the WitnetRequestBoard contract.\n @param _id The unique identifier of a request that was posted to Witnet.\n @return The result of the request as an instance of `Result`."
             },
-            "id": 1841,
+            "id": 2055,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "witnetReadResult",
-            "nameLocation": "2830:16:3",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1827,
+              "id": 2041,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1826,
+                  "id": 2040,
                   "mutability": "mutable",
                   "name": "_id",
-                  "nameLocation": "2855:3:3",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1841,
-                  "src": "2847:11:3",
+                  "scope": 2055,
+                  "src": "2847:11:6",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2826,10 +2783,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1825,
+                    "id": 2039,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "2847:7:3",
+                    "src": "2847:7:6",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -2838,71 +2795,70 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "2846:13:3"
+              "src": "2846:13:6"
             },
             "returnParameters": {
-              "id": 1831,
+              "id": 2045,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1830,
+                  "id": 2044,
                   "mutability": "mutable",
                   "name": "",
-                  "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1841,
-                  "src": "2883:20:3",
+                  "scope": 2055,
+                  "src": "2883:20:6",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_struct$_Result_$1871_memory_ptr",
+                    "typeIdentifier": "t_struct$_Result_$2085_memory_ptr",
                     "typeString": "struct Witnet.Result"
                   },
                   "typeName": {
-                    "id": 1829,
+                    "id": 2043,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 1828,
+                      "id": 2042,
                       "name": "Witnet.Result",
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 1871,
-                      "src": "2883:13:3"
+                      "referencedDeclaration": 2085,
+                      "src": "2883:13:6"
                     },
-                    "referencedDeclaration": 1871,
-                    "src": "2883:13:3",
+                    "referencedDeclaration": 2085,
+                    "src": "2883:13:6",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_Result_$1871_storage_ptr",
+                      "typeIdentifier": "t_struct$_Result_$2085_storage_ptr",
                       "typeString": "struct Witnet.Result"
                     }
                   },
                   "visibility": "internal"
                 }
               ],
-              "src": "2882:22:3"
+              "src": "2882:22:6"
             },
-            "scope": 1856,
-            "src": "2821:149:3",
+            "scope": 2070,
+            "src": "2821:149:6",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "internal"
           },
           {
             "body": {
-              "id": 1854,
+              "id": 2068,
               "nodeType": "Block",
-              "src": "3332:48:3",
+              "src": "3332:48:6",
               "statements": [
                 {
                   "expression": {
                     "arguments": [
                       {
-                        "id": 1851,
+                        "id": 2065,
                         "name": "_gasPrice",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1844,
-                        "src": "3365:9:3",
+                        "referencedDeclaration": 2058,
+                        "src": "3365:9:6",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -2917,32 +2873,32 @@
                         }
                       ],
                       "expression": {
-                        "id": 1849,
+                        "id": 2063,
                         "name": "wrb",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1744,
-                        "src": "3345:3:3",
+                        "referencedDeclaration": 1958,
+                        "src": "3345:3:6",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_WitnetRequestBoardInterface_$3782",
+                          "typeIdentifier": "t_contract$_WitnetRequestBoardInterface_$3490",
                           "typeString": "contract WitnetRequestBoardInterface"
                         }
                       },
-                      "id": 1850,
+                      "id": 2064,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "estimateGasCost",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 3781,
-                      "src": "3345:19:3",
+                      "referencedDeclaration": 3489,
+                      "src": "3345:19:6",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_view$_t_uint256_$returns$_t_uint256_$",
                         "typeString": "function (uint256) view external returns (uint256)"
                       }
                     },
-                    "id": 1852,
+                    "id": 2066,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2950,46 +2906,44 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "3345:30:3",
+                    "src": "3345:30:6",
                     "tryCall": false,
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "functionReturnParameters": 1848,
-                  "id": 1853,
+                  "functionReturnParameters": 2062,
+                  "id": 2067,
                   "nodeType": "Return",
-                  "src": "3338:37:3"
+                  "src": "3338:37:6"
                 }
               ]
             },
             "documentation": {
-              "id": 1842,
+              "id": 2056,
               "nodeType": "StructuredDocumentation",
-              "src": "2973:274:3",
+              "src": "2973:274:6",
               "text": " @notice Estimate the reward amount.\n @dev Call to `estimate_gas_cost` function in the WitnetRequestBoard contract.\n @param _gasPrice The gas price for which we want to retrieve the estimation.\n @return The reward to be included for the given gas price."
             },
-            "id": 1855,
+            "id": 2069,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "witnetEstimateGasCost",
-            "nameLocation": "3259:21:3",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1845,
+              "id": 2059,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1844,
+                  "id": 2058,
                   "mutability": "mutable",
                   "name": "_gasPrice",
-                  "nameLocation": "3289:9:3",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1855,
-                  "src": "3281:17:3",
+                  "scope": 2069,
+                  "src": "3281:17:6",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2997,10 +2951,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1843,
+                    "id": 2057,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "3281:7:3",
+                    "src": "3281:7:6",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -3009,21 +2963,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "3280:19:3"
+              "src": "3280:19:6"
             },
             "returnParameters": {
-              "id": 1848,
+              "id": 2062,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1847,
+                  "id": 2061,
                   "mutability": "mutable",
                   "name": "",
-                  "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1855,
-                  "src": "3323:7:3",
+                  "scope": 2069,
+                  "src": "3323:7:6",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3031,10 +2984,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1846,
+                    "id": 2060,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "3323:7:3",
+                    "src": "3323:7:6",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -3043,29 +2996,28 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "3322:9:3"
+              "src": "3322:9:6"
             },
-            "scope": 1856,
-            "src": "3250:130:3",
+            "scope": 2070,
+            "src": "3250:130:6",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "internal"
           }
         ],
-        "scope": 1857,
-        "src": "331:3051:3",
-        "usedErrors": []
+        "scope": 2071,
+        "src": "331:3051:6"
       }
     ],
-    "src": "33:3350:3"
+    "src": "33:3350:6"
   },
   "compiler": {
     "name": "solc",
-    "version": "0.8.4+commit.c7e474f2.Emscripten.clang"
+    "version": "0.8.0+commit.c7dfd78e.Emscripten.clang"
   },
   "networks": {},
   "schemaVersion": "3.4.2",
-  "updatedAt": "2021-07-25T13:12:32.357Z",
+  "updatedAt": "2021-07-25T13:34:07.279Z",
   "devdoc": {
     "kind": "dev",
     "methods": {

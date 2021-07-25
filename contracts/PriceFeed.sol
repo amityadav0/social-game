@@ -8,18 +8,15 @@ import "witnet-ethereum-bridge/contracts/UsingWitnet.sol";
 import "./requests/RandomNumber.sol";
 
 // Your contract needs to inherit from UsingWitnet
-contract PriceFeed is UsingWitnet {
+contract RandomNumberGen is UsingWitnet {
 
   using Witnet for Witnet.Result;
 
-  // The public Bitcoin price point
-  uint64 public lastPrice;
+  // random number
+  uint64 public randomNumber;
 
   // Stores the ID of the last Witnet request
   uint256 public lastRequestId;
-
-  // Stores the timestamp of the last time the public price point was updated
-  uint256 public timestamp;
 
   // Tells if an update has been requested but not yet completed
   bool public pending;
@@ -27,8 +24,8 @@ contract PriceFeed is UsingWitnet {
   // The Witnet request object, is set in the constructor
   Request public request;
 
-  // Emits when the price is updated
-  event PriceUpdated(uint64);
+  // Emits when the random number is generated
+  event RandomNumberGenerated(uint64);
 
   // Emits when found an error decoding request result
   event ResultError(string);
@@ -37,7 +34,7 @@ contract PriceFeed is UsingWitnet {
   // to find the Witnet contracts on whatever Ethereum network you use.
   constructor (address _wrb) UsingWitnet(_wrb) {
     // Instantiate the Witnet request
-    request = new BitcoinPriceRequest();
+    request = new RandomNumberRequest();
   }
 
   /**
@@ -71,9 +68,8 @@ contract PriceFeed is UsingWitnet {
     // If the Witnet request succeeded, decode the result and update the price point
     // If it failed, revert the transaction with a pretty-printed error message
     if (result.isOk()) {
-      lastPrice = result.asUint64();
-      timestamp = block.timestamp;
-      emit PriceUpdated(lastPrice);
+      randomNumber = result.asUint64();
+      emit RandomNumberGenerated(randomNumber);
     } else {
       string memory errorMessage;
 
