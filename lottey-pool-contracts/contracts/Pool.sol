@@ -5,6 +5,7 @@ import "@openzeppelin/contracts/utils/Counters.sol";
 import "hardhat/console.sol";
 
 import "./PoolTicket.sol";
+import "./RandomNumberGenInterface.sol";
 
 // We do not need to use safemath since solidity 0.8 have overflow checks by default
 //import "@openzeppelin/contracts/utils/math/SafeMath.sol";
@@ -41,7 +42,8 @@ contract Pool is PoolTicket {
   constructor(address _daoAddress,
               uint64 _participantCount, 
               uint8[] memory _winningPercentages,
-              uint32 _ticketPrice) 
+              uint32 _ticketPrice,
+              ) 
       PoolTicket(_ticketPrice)
       {
     // Pass them through the functions to have them validated

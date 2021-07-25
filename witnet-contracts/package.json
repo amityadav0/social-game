@@ -29,7 +29,9 @@
   },
   "dependencies": {
     "witnet-ethereum-bridge": "git+https://github.com/witnet/witnet-ethereum-bridge",
-    "witnet-requests": "git+https://github.com/witnet/witnet-requests-js"
+    "witnet-requests": "git+https://github.com/witnet/witnet-requests-js",
+    "@openzeppelin/contracts": "^4.1.0",
+    "hardhat": "^2.4.0"
   },
   "devDependencies": {
     "@babel/core": "^7.10.2",
